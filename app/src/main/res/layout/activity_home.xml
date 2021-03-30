@@ -6,7 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".home"
     android:background="@color/bg">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello, Mrs. Rofi"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintVertical_bias="0.15"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toRightOf="parent"/>
 <View
+    android:id="@+id/container_main"
     android:layout_width="300dp"
     android:layout_height="100dp"
     android:background="@drawable/home_container_1"
@@ -17,10 +31,49 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintRight_toRightOf="parent"/>
 
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. 100.000"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
     <View
+        android:id="@+id/scan"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/scan"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintVertical_bias="0.26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <View
+        android:id="@+id/top_up"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:background="@drawable/top_up"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintVertical_bias="0.246"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <View
+        android:id="@+id/transfer"
         android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:background="@drawable/container_home_2"
+        android:layout_height="130dp"
+        android:background="@drawable/transfer"
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintVertical_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,9 +82,10 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <View
+        android:id="@+id/request"
         android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:background="@drawable/container_home_2"
+        android:layout_height="130dp"
+        android:background="@drawable/request"
         app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintVertical_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,9 +94,10 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <View
+        android:id="@+id/billing"
         android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:background="@drawable/container_home_2"
+        android:layout_height="130dp"
+        android:background="@drawable/billing"
         app:layout_constraintHorizontal_bias="0.20"
         app:layout_constraintVertical_bias="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,9 +106,10 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <View
+        android:id="@+id/get"
         android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:background="@drawable/container_home_2"
+        android:layout_height="130dp"
+        android:background="@drawable/get"
         app:layout_constraintHorizontal_bias="0.80"
         app:layout_constraintVertical_bias="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
