@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EWallet">
+<<<<<<< HEAD
         <activity android:name=".profile"></activity>
         <activity android:name=".transfer" />
+=======
+        <activity android:name=".home"></activity>
+>>>>>>> 935b2512c75a15e0f29efc4a9f7c9ad5d47d63d9
         <activity android:name=".login" />
         <activity android:name=".Regist" />
         <activity android:name=".MainActivity">
