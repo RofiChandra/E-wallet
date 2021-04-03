@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EWallet">
-        <activity android:name=".StepOtherMethodActivity"></activity>
+        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
         <activity
             android:name=".StepAtmActivity"
