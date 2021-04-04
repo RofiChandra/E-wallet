@@ -13,6 +13,7 @@
     android:text="Hello, Mr. Rofi"
     android:textColor="@color/black"
     android:textSize="20dp"
+    android:fontFamily="@font/open_sans"
     app:layout_constraintHorizontal_bias="0.5"
     app:layout_constraintVertical_bias="0.23"
     app:layout_constraintBottom_toBottomOf="parent"
