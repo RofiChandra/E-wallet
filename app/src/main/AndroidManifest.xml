@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EWallet">
+        <activity android:name=".invoice_bank"></activity>
+        <activity android:name=".invoice_ewallet" />
+        <activity android:name=".konfirmasi_transfer_ewallet" />
+        <activity android:name=".konfirmasi_transfer_bank" />
+        <activity android:name=".transfer_bank" />
+        <activity android:name=".transfer_ewallet" />
+        <activity android:name=".profile" />
+        <activity android:name=".transfer" />
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
@@ -16,6 +24,7 @@
             android:name=".StepAtmActivity"
             android:label="@string/title_activity_step_atm"
             android:theme="@style/Theme.EWallet.NoActionBar" />
+
         <activity android:name=".home" />
         <activity android:name=".login" />
         <activity android:name=".Regist" />
