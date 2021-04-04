@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Rp. 100.000"
         android:textSize="20dp"
+        android:fontFamily="@font/open_sans"
         android:textColor="@color/black"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintVertical_bias="0.36"
