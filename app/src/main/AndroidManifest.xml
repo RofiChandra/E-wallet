@@ -17,6 +17,14 @@
         <activity android:name=".transfer_ewallet" />
         <activity android:name=".profile" />
         <activity android:name=".transfer" />
+        <activity android:name=".HistoryActivity"></activity>
+        <activity android:name=".StepOtherMethodActivity" />
+        <activity android:name=".StepMobileActivity" />
+        <activity
+            android:name=".StepAtmActivity"
+            android:label="@string/title_activity_step_atm"
+            android:theme="@style/Theme.EWallet.NoActionBar" />
+
         <activity android:name=".home" />
         <activity android:name=".login" />
         <activity android:name=".Regist" />
