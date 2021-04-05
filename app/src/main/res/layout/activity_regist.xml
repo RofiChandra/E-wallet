@@ -8,7 +8,6 @@
     android:background="@color/bg">
 
     <ImageView
-        android:id="@+id/regist_logo"
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:src="@drawable/regist_logo"
@@ -20,7 +19,6 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <TextView
-        android:id="@+id/username_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
@@ -34,7 +32,6 @@
         android:text="Username"/>
 
     <EditText
-        android:id="@+id/username_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -47,7 +44,6 @@
         android:translationZ="10dp"/>
 
     <TextView
-        android:id="@+id/email_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
@@ -61,7 +57,6 @@
         android:text="Email"/>
 
     <EditText
-        android:id="@+id/email_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -74,7 +69,6 @@
         android:translationZ="10dp"/>
 
     <TextView
-        android:id="@+id/pass_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
@@ -88,7 +82,6 @@
         android:text="Password"/>
 
     <EditText
-        android:id="@+id/pass_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -101,7 +94,6 @@
         android:translationZ="10dp"/>
 
     <TextView
-        android:id="@+id/repass_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18dp"
@@ -115,7 +107,6 @@
         android:text="Re-Password"/>
 
     <EditText
-        android:id="@+id/repass_input"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -128,7 +119,6 @@
         android:translationZ="10dp"/>
 
     <Button
-        android:id="@+id/regist_btn"
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:background="@drawable/btn"
@@ -194,7 +184,7 @@
         android:text="Already have account? Login now!"
         android:textColor="@color/secondary"
         android:textSize="13dp"
-		android:onClick="toLogin"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"

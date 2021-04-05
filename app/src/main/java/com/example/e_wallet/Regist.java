@@ -2,7 +2,10 @@ package com.example.e_wallet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 public class Regist extends AppCompatActivity {
     private EditText et_email;
@@ -22,7 +25,7 @@ public class Regist extends AppCompatActivity {
         et_repass = findViewById(R.id.repass_input);
         btn_submit = findViewById(R.id.regist_btn);
     }
-	
+
 	public void toLogin(){
 		Intent intent = new Intent(this,login.class);
 		startActivity(intent);
@@ -37,3 +40,4 @@ public class Regist extends AppCompatActivity {
 
         }
     }
+
