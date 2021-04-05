@@ -11,4 +11,9 @@ public class HistoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.history);
     }
+
+        public void toHome(View v){
+        Intent intent = new Intent(this,activity_home.class);
+        startActivity(intent);
+    }
 }

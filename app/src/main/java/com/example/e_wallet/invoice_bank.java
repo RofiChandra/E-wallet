@@ -11,4 +11,9 @@ public class invoice_bank extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_invoice_bank);
     }
+
+    public void toHome(View v){
+        Intent intent = new Intent(this,activity_home.class);
+        startActivity(intent);
+    }
 }

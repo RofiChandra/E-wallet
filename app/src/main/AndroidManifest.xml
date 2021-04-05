@@ -20,10 +20,7 @@
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
-        <activity
-            android:name=".StepAtmActivity"
-            android:label="@string/title_activity_step_atm"
-            android:theme="@style/Theme.EWallet.NoActionBar" />
+        <activity android:name=".StepAtmActivity"/>
 
         <activity android:name=".home" />
         <activity android:name=".login" />
