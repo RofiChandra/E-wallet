@@ -8,10 +8,10 @@ import android.view.View;
 import android.widget.TextView;
 
 public class Regist extends AppCompatActivity {
-    private TextView tv_email;
-	private TextView tv_uname;
-    private TextView tv_pass;
-    private TextView tv_repass;
+    private EditText et_email;
+	private EditText et_uname;
+    private EditText et_pass;
+    private EditText et_repass;
     private Button btn_submit;
 
     @Override
@@ -19,10 +19,11 @@ public class Regist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regist);
 
-        tv_email = findViewById(R.id.email_input);
-        tv_uname = findViewById(R.id.username_input);
-        tv_pass = findViewById(R.id.pass_input);
-        tv_repass = findViewById(R.id.repass_input);
+        et_email = findViewById(R.id.email_input);
+        et_uname = findViewById(R.id.username_input);
+        et_pass = findViewById(R.id.pass_input);
+        et_repass = findViewById(R.id.repass_input);
+        btn_submit = findViewById(R.id.regist_btn);
     }
 
 	public void toLogin(){
