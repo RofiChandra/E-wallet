@@ -11,4 +11,8 @@ public class register2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register2);
     }
+
+    // public void toOTP(View v){
+    //     Intent intent = new Intent(this,otp.class);
+    // }
 }

@@ -11,4 +11,9 @@ public class promo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_promo);
     }
+
+    public void toHome(View v){
+        Intent intent = new Intent(this,home.class);
+        startActivity(intent);
+    }
 }

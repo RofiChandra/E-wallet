@@ -11,4 +11,10 @@ public class invoice_ewallet extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_invoice_ewallet);
     }
+
+        public void toHome(View v){
+        Intent intent = new Intent(this,home.class);
+        startActivity(intent);
+    }
 }
+

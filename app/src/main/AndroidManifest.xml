@@ -28,7 +28,7 @@
         <activity android:name=".HistoryActivity" />
         <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
-        <activity android:name=".StepAtmActivity" />
+        <activity android:name=".StepAtmActivity"/>
         <activity android:name=".home" />
         <activity android:name=".login" />
         <activity android:name=".Regist" />

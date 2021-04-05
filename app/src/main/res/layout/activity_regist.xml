@@ -124,6 +124,7 @@
         android:background="@drawable/btn"
         android:text="Submit"
         app:backgroundTint="@color/btn"
+        android:onClick="validation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"

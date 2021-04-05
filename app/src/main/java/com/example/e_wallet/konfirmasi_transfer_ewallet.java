@@ -11,4 +11,14 @@ public class konfirmasi_transfer_ewallet extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konfirmasi_transfer_ewallet);
     }
+
+            public void toInvoiceWallet(View v){
+        Intent intent = new Intent(this,invoice_ewallet.class);
+        startActivity(intent);
+    }
+
+    public void toTransferWallet(View v){
+        Intent intent = new Intent(this,transfer_ewallet.class);
+        startActivity(intent);
+     }
 }

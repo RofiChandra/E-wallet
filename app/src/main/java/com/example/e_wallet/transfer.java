@@ -11,4 +11,9 @@ public class transfer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer);
     }
+
+    public void toHome(View v){
+        Intent intent = new Intent(this,home.class);
+        startActivity(intent);
+    }
 }
