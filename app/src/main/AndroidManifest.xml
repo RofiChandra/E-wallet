@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EWallet">
-        <activity android:name=".promo"></activity>
+        <activity android:name=".topup_menu"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".promo" />
         <activity android:name=".register2" />
         <activity android:name=".invoice_bank" />
         <activity android:name=".invoice_ewallet" />
@@ -23,16 +29,11 @@
         <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
         <activity android:name=".StepAtmActivity"/>
-
         <activity android:name=".home" />
         <activity android:name=".login" />
         <activity android:name=".Regist" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
