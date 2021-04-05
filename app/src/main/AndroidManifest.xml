@@ -22,15 +22,8 @@
         <activity android:name=".HistoryActivity" />
         <activity android:name=".StepOtherMethodActivity" />
         <activity android:name=".StepMobileActivity" />
-<<<<<<< HEAD
         <activity android:name=".StepAtmActivity"/>
 
-=======
-        <activity
-            android:name=".StepAtmActivity"
-            android:label="@string/title_activity_step_atm"
-            android:theme="@style/Theme.EWallet.NoActionBar" />
->>>>>>> 85f132f08380b5821104575b77b1f4d4e1909f02
         <activity android:name=".home" />
         <activity android:name=".login" />
         <activity android:name=".Regist" />
