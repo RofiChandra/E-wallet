@@ -13,12 +13,12 @@ public class konfirmasi_transfer_bank extends AppCompatActivity {
     }
 
         public void toInvoiceBank(View v){
-        Intent intent = new Intent(this,activity_invoice_bank.class);
+        Intent intent = new Intent(this,invoice_bank.class);
         startActivity(intent);
     }
 
     public void toTransferBank(View v){
-        Intent intent = new Intent(this,activity_transfer_bank.class);
+        Intent intent = new Intent(this,transfer_bank.class);
         startActivity(intent);
      }
 }

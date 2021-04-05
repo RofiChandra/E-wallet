@@ -22,8 +22,8 @@ public class Regist extends AppCompatActivity {
         tv_repass = findViewById(R.id.repass_input);
     }
 	
-	public void toLogin(View v){
-		Intent intent = new Intent(this,activity_login.class);
+	public void toLogin(){
+		Intent intent = new Intent(this,login.class);
 		startActivity(intent);
     }
 
@@ -31,7 +31,7 @@ public class Regist extends AppCompatActivity {
         if(!isEmpty(tv_email && tv_uname && tv_pass & tv_repass)){
             toLogin();
         }else{
-            Snackbar.make(findViewById(R.id.btn_submit),"Login Failed Admin.",Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.btn_submit),"Registrasi gagal.",Snackbar.LENGTH_LONG).show();
         }
 
         }

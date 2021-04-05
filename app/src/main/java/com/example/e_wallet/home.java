@@ -15,23 +15,23 @@ public class home extends AppCompatActivity {
 
 		pay = findViewById(R.id.pay);
 
-		pay.setOnClickListener(new View.OnclickListener(){
-			@Override
-			public void onClick(View v){
-				Intent openCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-				startActivityForResult(openCamera, requestCode: 100);
-			}
-		});
+		// pay.setOnClickListener(new View.OnclickListener(){
+		// 	@Override
+		// 	public void onClick(View v){
+		// 		Intent openCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+		// 		startActivityForResult(openCamera, requestCode: 100);
+		// 	}
+		// });
     }
 
-	@Override
-	public void onActivityResult(int requestCode, int resultCode,)
-	Bitmap photo = (Bitmap)data.getExtras().get("data");
-	ImageView.SetImageBitmap(photo);
+	// @Override
+	// public void onActivityResult(int requestCode, int resultCode,)
+	// Bitmap photo = (Bitmap)data.getExtras().get("data");
+	// ImageView.SetImageBitmap(photo);
 
 	
 	public void toHistory(View v){
-		Intent intent = new Intent(this,history.class);
+		Intent intent = new Intent(this,HistoryActivity.class);
 		startActivity(intent);
 	}
 	
@@ -41,7 +41,7 @@ public class home extends AppCompatActivity {
 	}
 	
 	public void toProfile(View v){
-		Intent intent = new Intent(this,promo.class);
+		Intent intent = new Intent(this,profile.class);
 		startActivity(intent);
 	}
 	
@@ -50,13 +50,13 @@ public class home extends AppCompatActivity {
 		startActivity(intent);
 	}
 	
-	public void toRequest(View v){
-		Intent intent = new Intent(this,request.class);
-		startActivity(intent);
-	}
+	// public void toRequest(View v){
+	// 	Intent intent = new Intent(this,request.class);
+	// 	startActivity(intent);
+	// }
 	
-	public void toTopup(View v){
-		Intent intent = new Intent(this,topup.class);
-		startActivity(intent);
-	}
+	// public void toTopup(View v){
+	// 	Intent intent = new Intent(this,topup.class);
+	// 	startActivity(intent);
+	// }
 }

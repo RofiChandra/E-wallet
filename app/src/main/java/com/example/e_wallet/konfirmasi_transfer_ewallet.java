@@ -13,12 +13,12 @@ public class konfirmasi_transfer_ewallet extends AppCompatActivity {
     }
 
             public void toInvoiceWallet(View v){
-        Intent intent = new Intent(this,activity_invoice_bank.class);
+        Intent intent = new Intent(this,invoice_ewallet.class);
         startActivity(intent);
     }
 
     public void toTransferWallet(View v){
-        Intent intent = new Intent(this,activity_transfer_bank.class);
+        Intent intent = new Intent(this,transfer_ewallet.class);
         startActivity(intent);
      }
 }

@@ -13,7 +13,7 @@ public class HistoryActivity extends AppCompatActivity {
     }
 
         public void toHome(View v){
-        Intent intent = new Intent(this,activity_home.class);
+        Intent intent = new Intent(this,home.class);
         startActivity(intent);
     }
 }

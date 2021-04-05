@@ -11,6 +11,10 @@ public class StepAtmActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_atm);
-
     }
+
+    // public void toTopupATM(View v){
+    //     Intent intent = new Intent(this,topup_atm.class);
+    //     startActivity(intent);
+    // }
 }

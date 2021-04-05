@@ -11,4 +11,9 @@ public class StepOtherMethodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_other_method);
     }
+
+        // public void toTopupATM(View v){
+    //     Intent intent = new Intent(this,topup_atm.class);
+    //     startActivity(intent);
+    // }
 }

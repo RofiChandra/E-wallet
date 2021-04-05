@@ -22,12 +22,12 @@ public class login extends AppCompatActivity {
         if(!isEmpty(et_name || et_pass)){
             toHome();
         }else{
-            Snackbar.make(findViewById(R.id.logbutton),"Login Failed Admin.",Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.logbutton),"Login Gagal.",Snackbar.LENGTH_LONG).show();
         }
     }
 
     public void toHome(View v){
-        Intent intent = new Intent(this,activity_home.class);
+        Intent intent = new Intent(this,home.class);
         startActivity(intent);
     }
 }

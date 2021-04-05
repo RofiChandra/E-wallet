@@ -11,4 +11,9 @@ public class StepMobileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_mobile);
     }
+
+        // public void toTopupATM(View v){
+    //     Intent intent = new Intent(this,topup_atm.class);
+    //     startActivity(intent);
+    // }
 }

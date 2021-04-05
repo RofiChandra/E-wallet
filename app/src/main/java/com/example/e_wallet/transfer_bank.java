@@ -11,4 +11,9 @@ public class transfer_bank extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer_bank);
     }
+
+    public void toTransfer(View v){
+        Intent intent = new Intent(this,transfer.class);
+        startActivity(intent);
+    }
 }
