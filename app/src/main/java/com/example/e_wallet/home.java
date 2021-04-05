@@ -6,11 +6,29 @@ import android.os.Bundle;
 
 public class home extends AppCompatActivity {
 
+	private View pay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+		pay = findViewById(R.id.pay);
+
+		pay.setOnClickListener(new View.OnclickListener(){
+			@Override
+			public void onClick(View v){
+				Intent openCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+				startActivityForResult(openCamera, requestCode: 100);
+			}
+		});
     }
+
+	@Override
+	public void onActivityResult(int requestCode, int resultCode,)
+	Bitmap photo = (Bitmap)data.getExtras().get("data");
+	ImageView.SetImageBitmap(photo);
+
 	
 	public void toHistory(View v){
 		Intent intent = new Intent(this,history.class);
