@@ -2,7 +2,10 @@ package com.example.e_wallet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 public class Regist extends AppCompatActivity {
 
@@ -15,6 +18,7 @@ public class Regist extends AppCompatActivity {
     }
 	
 	public void toLogin(View v){
-		Intent intent = new Intent(this,activity_login.class);
+		Intent intent = new Intent(this,login.class);
 		startActivity(intent);
+    }
 }
