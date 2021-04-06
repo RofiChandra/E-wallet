@@ -37,17 +37,22 @@ public class Regist extends AppCompatActivity {
 		startActivity(intent);
     }
 
-    public void validation(View v){
+    public void validation(View v) {
         String email = et_email.getText().toString();
         String username = et_uname.getText().toString();
         String pass = et_pass.getText().toString();
         String repass = et_repass.getText().toString();
-        if(!isEmpty(email) && !isEmpty(username) && !isEmpty(pass) && !isEmpty(repass)){
+        if (!isEmpty(email) && !isEmpty(username) && !isEmpty(pass) && !isEmpty(repass)) {
             toLogin();
-        }else{
-            Snackbar.make(findViewById(R.id.regist_btn),"Registrasi gagal.",Snackbar.LENGTH_LONG).show();
+        } else {
+            Snackbar.make(findViewById(R.id.regist_btn), "Registrasi gagal.", Snackbar.LENGTH_LONG).show();
         }
 
-        }
+    }
+
+    public void toLoginEt(View v) {
+        Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
     }
 
