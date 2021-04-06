@@ -10,7 +10,7 @@
 <View
     android:layout_width="170dp"
     android:layout_height="50dp"
-    android:background="@drawable/back_to_home"
+    android:background="@drawable/kembali_ke_home"
     app:layout_constraintHorizontal_bias="0.05"
     app:layout_constraintVertical_bias="0.02"
     app:layout_constraintBottom_toBottomOf="parent"
