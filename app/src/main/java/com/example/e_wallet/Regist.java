@@ -37,7 +37,7 @@ public class Regist extends AppCompatActivity {
 		startActivity(intent);
     }
 
-    private void validation(View v){
+    public void validation(View v){
         String email = et_email.getText().toString();
         String username = et_uname.getText().toString();
         String pass = et_pass.getText().toString();
