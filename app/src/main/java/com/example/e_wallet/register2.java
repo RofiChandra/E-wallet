@@ -12,7 +12,8 @@ public class register2 extends AppCompatActivity {
         setContentView(R.layout.activity_register2);
     }
 
-    // public void toOTP(View v){
-    //     Intent intent = new Intent(this,otp.class);
-    // }
+    public void toLogin(View v) {
+        Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
 }
