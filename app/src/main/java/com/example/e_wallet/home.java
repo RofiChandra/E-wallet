@@ -3,7 +3,9 @@ package com.example.e_wallet;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 
 public class home extends AppCompatActivity {
@@ -14,16 +16,20 @@ public class home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+		getSupportActionBar().hide();
 
 		pay = findViewById(R.id.pay);
 
-		// pay.setOnClickListener(new View.OnclickListener(){
-		// 	@Override
-		// 	public void onClick(View v){
-		// 		Intent openCamera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-		// 		startActivityForResult(openCamera, requestCode: 100);
-		// 	}
-		// });
+		pay.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent open_camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+				startActivityForResult(open_camera, 100);
+			}
+		});
+
+
+
     }
 
 	// @Override
@@ -57,8 +63,8 @@ public class home extends AppCompatActivity {
 	// 	startActivity(intent);
 	// }
 	
-	// public void toTopup(View v){
-	// 	Intent intent = new Intent(this,topup.class);
-	// 	startActivity(intent);
-	// }
+	 public void toTopup(View v){
+	 	Intent intent = new Intent(this,topup_menu.class);
+	 	startActivity(intent);
+	 }
 }

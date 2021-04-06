@@ -30,22 +30,22 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <View
-        android:layout_width="380dp"
-        android:layout_height="500dp"
+        android:layout_width="330dp"
+        android:layout_height="370dp"
         android:background="@drawable/step_1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="1.2"
+        app:layout_constraintVertical_bias="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
     <View
-        android:layout_width="380dp"
-        android:layout_height="50dp"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
         android:background="@drawable/rounded_pink_bar"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintVertical_bias="0.365"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,7 +56,7 @@
         android:layout_height="40dp"
         android:background="@drawable/bank"
         app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintVertical_bias="0.365"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -69,7 +69,7 @@
         android:textSize="25dp"
         android:textColor="@color/white"
         app:layout_constraintHorizontal_bias="0.27"
-        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintVertical_bias="0.365"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"

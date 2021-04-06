@@ -12,6 +12,7 @@ public class invoice_ewallet extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_invoice_ewallet);
+        getSupportActionBar().hide();
     }
 
         public void toHome(View v){

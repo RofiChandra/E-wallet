@@ -12,6 +12,7 @@ public class invoice_bank extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_invoice_bank);
+        getSupportActionBar().hide();
     }
 
     public void toHome(View v){

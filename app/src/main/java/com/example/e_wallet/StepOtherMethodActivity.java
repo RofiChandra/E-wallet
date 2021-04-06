@@ -10,6 +10,7 @@ public class StepOtherMethodActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_other_method);
+        getSupportActionBar().hide();
     }
 
         // public void toTopupATM(View v){

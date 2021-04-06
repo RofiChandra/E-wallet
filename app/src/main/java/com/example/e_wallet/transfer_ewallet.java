@@ -12,6 +12,7 @@ public class transfer_ewallet extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer_ewallet);
+        getSupportActionBar().hide();
     }
 
     public void toTransfer(View v){

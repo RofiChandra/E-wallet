@@ -10,29 +10,55 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EWallet">
         <activity android:name=".topup_menu">
+
+        </activity>
+        <activity android:name=".promo">
+
+        </activity>
+        <activity android:name=".register2" />
+        <activity android:name=".invoice_bank">
+
+        </activity>
+        <activity android:name=".invoice_ewallet">
+
+        </activity>
+        <activity android:name=".konfirmasi_transfer_ewallet">
+
+        </activity>
+        <activity android:name=".konfirmasi_transfer_bank">
+
+        </activity>
+        <activity android:name=".transfer_bank">
+
+        </activity>
+        <activity android:name=".transfer_ewallet">
+
+        </activity>
+        <activity android:name=".profile" />
+        <activity android:name=".transfer" />
+        <activity android:name=".HistoryActivity">
+
+        </activity>
+        <activity android:name=".StepOtherMethodActivity">
+
+        </activity>
+        <activity android:name=".StepMobileActivity">
+
+        </activity>
+        <activity android:name=".StepAtmActivity">
+
+        </activity>
+        <activity android:name=".home" />
+        <activity android:name=".login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".promo" />
-        <activity android:name=".register2" />
-        <activity android:name=".invoice_bank" />
-        <activity android:name=".invoice_ewallet" />
-        <activity android:name=".konfirmasi_transfer_ewallet" />
-        <activity android:name=".konfirmasi_transfer_bank" />
-        <activity android:name=".transfer_bank" />
-        <activity android:name=".transfer_ewallet" />
-        <activity android:name=".profile" />
-        <activity android:name=".transfer" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".StepOtherMethodActivity" />
-        <activity android:name=".StepMobileActivity" />
-        <activity android:name=".StepAtmActivity"/>
-        <activity android:name=".home" />
-        <activity android:name=".login" />
-        <activity android:name=".Regist" />
+        <activity android:name=".Regist">
+
+        </activity>
         <activity android:name=".MainActivity">
 
         </activity>

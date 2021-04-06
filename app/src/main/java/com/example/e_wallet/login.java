@@ -22,6 +22,7 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
 
         et_uname = findViewById(R.id.input_uname);
         et_pass = findViewById(R.id.input_pass);
@@ -34,7 +35,7 @@ public class login extends AppCompatActivity {
         if(!isEmpty(username) && !isEmpty(pass) ){
             toHome();
         }else{
-            Snackbar.make(findViewById(R.id.login_btn),"Login Gagal.",Snackbar.LENGTH_LONG).show();
+            Snackbar.make(findViewById(R.id.login_btn),"Username dan Password Tidak Boleh Kosong!",Snackbar.LENGTH_LONG).show();
         }
     }
 

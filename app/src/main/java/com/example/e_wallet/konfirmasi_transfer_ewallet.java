@@ -12,6 +12,7 @@ public class konfirmasi_transfer_ewallet extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konfirmasi_transfer_ewallet);
+        getSupportActionBar().hide();
     }
 
             public void toInvoiceWallet(View v){

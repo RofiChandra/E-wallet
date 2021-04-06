@@ -10,6 +10,7 @@ public class StepMobileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_mobile);
+        getSupportActionBar().hide();
     }
 
         // public void toTopupATM(View v){
