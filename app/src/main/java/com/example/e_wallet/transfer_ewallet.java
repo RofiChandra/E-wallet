@@ -2,7 +2,9 @@ package com.example.e_wallet;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class transfer_ewallet extends AppCompatActivity {
 

@@ -33,6 +33,7 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <EditText
+        android:id="@+id/input_uname"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -61,6 +62,7 @@
         app:layout_constraintRight_toRightOf="parent"/>
 
     <EditText
+        android:id="@+id/input_pass"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:background="@drawable/input_rounded"
@@ -84,9 +86,11 @@
         android:translationZ="10000000dp"/>
 
     <Button
+        android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:onClick="validate"
         app:backgroundTint="@color/btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
