@@ -12,8 +12,8 @@ public class StepOtherMethodActivity extends AppCompatActivity {
         setContentView(R.layout.step_other_method);
     }
 
-        public void toTopupMenu(View v){
-        Intent intent = new Intent(this,topup_menu.class);
+    public void toTopupMenu(View v) {
+        Intent intent = new Intent(this, topup_menu.class);
         startActivity(intent);
     }
 }
