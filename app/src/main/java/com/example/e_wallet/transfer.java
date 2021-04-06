@@ -18,4 +18,14 @@ public class transfer extends AppCompatActivity {
         Intent intent = new Intent(this,home.class);
         startActivity(intent);
     }
+
+        public void toWallet(View v){
+        Intent intent = new Intent(this,transfer_ewallet.class);
+        startActivity(intent);
+    }
+
+    public void toBank(View v){
+        Intent intent = new Intent(this,transfer_bank.class);
+        startActivity(intent);
+    }
 }
