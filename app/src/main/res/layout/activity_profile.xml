@@ -135,7 +135,7 @@
     <ImageButton
         android:layout_width="380dp"
         android:layout_height="60dp"
-
+        android:onClick="exit"
         android:background="@drawable/profil_keluar"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -7,6 +7,18 @@
     tools:context=".transfer_ewallet"
     android:background="@color/bg">
 
+            <View
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/kembali_ke_menu"
+        android:onClick="toHome"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,6 +116,7 @@
         android:layout_height="40dp"
         android:background="@drawable/kirim"
         android:text="SEND"
+        android:onClick="toInvoiceWallet"
         app:backgroundTint="@color/btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

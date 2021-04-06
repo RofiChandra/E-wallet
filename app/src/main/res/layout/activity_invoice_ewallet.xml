@@ -193,6 +193,7 @@
         android:background="@drawable/btn_transfer"
         android:text="BERANDA"
         app:backgroundTint="@color/btn"
+        android:onClick="toHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
