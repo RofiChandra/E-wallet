@@ -12,4 +12,14 @@ public class otp extends AppCompatActivity {
         setContentView(R.layout.activity_otp);
         getSupportActionBar().hide();
     }
+
+    public void toLogin(View v) {
+        Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
+
+    public void toRegist2(View v) {
+        Intent intent = new Intent(this, register2.class);
+        startActivity(intent);
+    }
 }

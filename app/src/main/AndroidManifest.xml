@@ -1,3 +1,73 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_wallet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EWallet">
+        <activity android:name=".topup_menu">
+
+        </activity>
+        <activity android:name=".promo">
+
+        </activity>
+        <activity android:name=".register2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".invoice_bank">
+
+        </activity>
+        <activity android:name=".invoice_ewallet">
+
+        </activity>
+        <activity android:name=".konfirmasi_transfer_ewallet">
+
+        </activity>
+        <activity android:name=".konfirmasi_transfer_bank">
+
+        </activity>
+        <activity android:name=".transfer_bank">
+
+        </activity>
+        <activity android:name=".transfer_ewallet">
+
+        </activity>
+        <activity android:name=".profile" />
+        <activity android:name=".transfer" />
+        <activity android:name=".HistoryActivity">
+
+        </activity>
+        <activity android:name=".StepOtherMethodActivity">
+
+        </activity>
+        <activity android:name=".StepMobileActivity">
+
+        </activity>
+        <activity android:name=".StepAtmActivity">
+
+        </activity>
+        <activity android:name=".home" />
+        <activity android:name=".login">
+
+        </activity>
+        <activity android:name=".Regist">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+=======
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.e_wallet">
@@ -45,4 +115,5 @@
         <activity android:name=".MainActivity" />
     </application>
 
+>>>>>>> 64ae962ebf756e7784f3b6ae589fbc3e8e57a0b6
 </manifest>
