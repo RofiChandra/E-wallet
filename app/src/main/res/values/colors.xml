@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
@@ -10,4 +11,20 @@
     <color name="bg">#A8DADC</color>
     <color name="btn">#1D3557</color>
     <color name="secondary">#E63946</color>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg">#A8DADC</color>
+    <color name="btn">#1D3557</color>
+    <color name="secondary">#E63946</color>
+    <color name="agakputih">#F1FAEE</color>
+
+>>>>>>> 64ae962ebf756e7784f3b6ae589fbc3e8e57a0b6
 </resources>

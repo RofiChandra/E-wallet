@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.e_wallet">
@@ -66,4 +67,53 @@
         </activity>
     </application>
 
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_wallet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EWallet">
+        <activity android:name=".otp">
+
+        </activity>
+        <activity android:name=".forgot_password">
+
+        </activity>
+        <activity android:name=".request"></activity>
+        <activity android:name=".pengaturan_profil" />
+        <activity android:name=".splash_screen" />
+        <activity android:name=".topup_menu" />
+        <activity android:name=".promo" />
+        <activity android:name=".register2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".invoice_bank" />
+        <activity android:name=".invoice_ewallet" />
+        <activity android:name=".konfirmasi_transfer_ewallet" />
+        <activity android:name=".konfirmasi_transfer_bank" />
+        <activity android:name=".transfer_bank" />
+        <activity android:name=".transfer_ewallet" />
+        <activity android:name=".profile" />
+        <activity android:name=".transfer" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".StepOtherMethodActivity" />
+        <activity android:name=".StepMobileActivity" />
+        <activity android:name=".StepAtmActivity" />
+        <activity android:name=".home" />
+        <activity android:name=".login" />
+        <activity android:name=".Regist" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+>>>>>>> 64ae962ebf756e7784f3b6ae589fbc3e8e57a0b6
 </manifest>
