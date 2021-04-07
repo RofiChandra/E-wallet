@@ -33,23 +33,48 @@ public class profile extends AppCompatActivity {
     //     startActivity(intent);
     // }
 
-    public void toHistory(View v){
-        Intent intent = new Intent(this,HistoryActivity.class);
-        startActivity(intent);
-    }
 
-    public void toPromo(View v){
-        Intent intent = new Intent(this,promo.class);
-        startActivity(intent);
-    }
-
-    public void toHome(View v){
-        Intent intent = new Intent(this,home.class);
-        startActivity(intent);
-    }
 
     public void toTransfer(View v){
         Intent intent = new Intent(this,transfer.class);
+    public void exit(View v) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+        builder.setTitle("Logout");
+        builder.setMessage("Apakah anda yakin untuk logout?");
+        builder.setPositiveButton("Ya, Saya yakin.", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+        builder.setNegativeButton("Tidak, saya tidak yakin.", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+    }
+
+    
+
+    public void toHistory(View v) {
+        Intent intent = new Intent(this, HistoryActivity.class);
+        startActivity(intent);
+    }
+
+    public void toPromo(View v) {
+        Intent intent = new Intent(this, promo.class);
+        startActivity(intent);
+    }
+
+    public void toHome(View v) {
+        Intent intent = new Intent(this, home.class);
+        startActivity(intent);
+    }
+
+    public void toTransfer(View v) {
+        Intent intent = new Intent(this, transfer.class);
         startActivity(intent);
     }
 

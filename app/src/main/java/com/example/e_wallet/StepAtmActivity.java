@@ -14,8 +14,8 @@ public class StepAtmActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    // public void toTopupATM(View v){
-    //     Intent intent = new Intent(this,topup_atm.class);
-    //     startActivity(intent);
-    // }
+    public void toTopupMenu(View v){
+        Intent intent = new Intent(this,topup_menu.class);
+        startActivity(intent);
+    }
 }

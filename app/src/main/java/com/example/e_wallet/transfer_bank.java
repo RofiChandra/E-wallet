@@ -15,8 +15,13 @@ public class transfer_bank extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void toTransfer(View v){
-        Intent intent = new Intent(this,transfer.class);
+    public void toTransfer(View v) {
+        Intent intent = new Intent(this, transfer.class);
         startActivity(intent);
+    }
+    
+    public void toInvoiceBank(View v) {
+        Intent intent = new Intent(this, invoice_bank.class);
+        startActivty(intent);
     }
 }

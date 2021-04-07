@@ -43,12 +43,17 @@ public class Regist extends AppCompatActivity {
         String username = et_uname.getText().toString();
         String pass = et_pass.getText().toString();
         String repass = et_repass.getText().toString();
-        if(!isEmpty(email) && !isEmpty(username) && !isEmpty(pass) && !isEmpty(repass)){
+        if (!isEmpty(email) && !isEmpty(username) && !isEmpty(pass) && !isEmpty(repass)) {
             toLogin();
         }else{
             Snackbar.make(findViewById(R.id.regist_btn),"Pastikan Seluruh Form Terisi!",Snackbar.LENGTH_LONG).show();
         }
 
-        }
+    }
+
+    public void toLoginEt(View v) {
+        Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
     }
 

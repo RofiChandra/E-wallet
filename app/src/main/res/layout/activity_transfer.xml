@@ -11,6 +11,7 @@
         android:layout_width="170dp"
         android:layout_height="50dp"
         android:background="@drawable/kembali_ke_home"
+        android:onClick="toHome"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintVertical_bias="0.02"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,8 +22,8 @@
     <ImageButton
         android:layout_width="350dp"
         android:layout_height="80dp"
-
         android:layout_marginTop="100dp"
+        android:onClick="toWallet"
         android:background="@drawable/button_transfer_ewallet"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,7 +35,7 @@
     <ImageButton
         android:layout_width="350dp"
         android:layout_height="80dp"
-
+        android:onClick:="toBank"
         android:layout_marginTop="200dp"
         android:background="@drawable/button_transfer_bank"
         app:layout_constraintHorizontal_bias="0.5"
