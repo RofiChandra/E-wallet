@@ -201,7 +201,7 @@
         android:text="Already have account? Login now!"
         android:textColor="@color/black"
         android:textSize="13dp"
-
+        android:onClick="toHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
