@@ -12,4 +12,9 @@ public class forgot_password extends AppCompatActivity {
         setContentView(R.layout.activity_forgot_password);
         getSupportActionBar().hide();
     }
+
+    public void toLogin(View v) {
+        Intent intent = Intent(this, login.class);
+        startActivity(intent);
+    }
 }
