@@ -33,7 +33,6 @@ public class profile extends AppCompatActivity {
     //     startActivity(intent);
     // }
 
-<<<<<<< HEAD
     public void exit(View v) {
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setTitle("Logout");
@@ -52,25 +51,26 @@ public class profile extends AppCompatActivity {
         });
         builder.show();
     }
-    }
-=======
-    public void toHistory(View v){
-        Intent intent = new Intent(this,HistoryActivity.class);
+
+    
+
+    public void toHistory(View v) {
+        Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
 
-    public void toPromo(View v){
-        Intent intent = new Intent(this,promo.class);
+    public void toPromo(View v) {
+        Intent intent = new Intent(this, promo.class);
         startActivity(intent);
     }
 
-    public void toHome(View v){
-        Intent intent = new Intent(this,home.class);
+    public void toHome(View v) {
+        Intent intent = new Intent(this, home.class);
         startActivity(intent);
     }
 
-    public void toTransfer(View v){
-        Intent intent = new Intent(this,transfer.class);
+    public void toTransfer(View v) {
+        Intent intent = new Intent(this, transfer.class);
         startActivity(intent);
     }
 
@@ -79,9 +79,10 @@ public class profile extends AppCompatActivity {
     // 	startActivity(intent);
     // }
 
-    public void toTopup(View v){
-        Intent intent = new Intent(this,topup_menu.class);
+    public void toTopup(View v) {
+        Intent intent = new Intent(this, topup_menu.class);
         startActivity(intent);
     }
 }
->>>>>>> 0ab2ab79961f264e2f62ab7f532e5a04d6c00658
+
+
