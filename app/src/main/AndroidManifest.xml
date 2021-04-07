@@ -15,7 +15,13 @@
         <activity android:name=".promo">
 
         </activity>
-        <activity android:name=".register2" />
+        <activity android:name=".register2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".invoice_bank">
 
         </activity>
@@ -50,11 +56,7 @@
         </activity>
         <activity android:name=".home" />
         <activity android:name=".login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Regist">
 
