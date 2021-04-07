@@ -12,6 +12,7 @@ public class HistoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.history);
+        getSupportActionBar().hide();
     }
 
         public void toHome(View v){

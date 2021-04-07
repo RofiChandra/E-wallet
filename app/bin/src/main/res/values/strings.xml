@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">E-Wallet</string>
+    <string name="title_activity_step_atm">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="syarat">Dengan melanjutkan, kamu setuju dengan Syarat dan Ketentuan serta Kebijakan Privasi kami</string>
+</resources>

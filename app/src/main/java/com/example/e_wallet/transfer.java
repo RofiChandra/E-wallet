@@ -12,6 +12,7 @@ public class transfer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transfer);
+        getSupportActionBar().hide();
     }
 
     public void toHome(View v){

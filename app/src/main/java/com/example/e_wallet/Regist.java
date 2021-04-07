@@ -24,6 +24,7 @@ public class Regist extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regist);
+        getSupportActionBar().hide();
 
         et_email = findViewById(R.id.email_input);
         et_uname = findViewById(R.id.username_input);
@@ -37,15 +38,24 @@ public class Regist extends AppCompatActivity {
 		startActivity(intent);
     }
 
+<<<<<<< HEAD
     public void validation(View v) {
+=======
+    public void validation(View v){
+>>>>>>> 0ab2ab79961f264e2f62ab7f532e5a04d6c00658
         String email = et_email.getText().toString();
         String username = et_uname.getText().toString();
         String pass = et_pass.getText().toString();
         String repass = et_repass.getText().toString();
         if (!isEmpty(email) && !isEmpty(username) && !isEmpty(pass) && !isEmpty(repass)) {
             toLogin();
+<<<<<<< HEAD
         } else {
             Snackbar.make(findViewById(R.id.regist_btn), "Registrasi gagal.", Snackbar.LENGTH_LONG).show();
+=======
+        }else{
+            Snackbar.make(findViewById(R.id.regist_btn),"Pastikan Seluruh Form Terisi!",Snackbar.LENGTH_LONG).show();
+>>>>>>> 0ab2ab79961f264e2f62ab7f532e5a04d6c00658
         }
 
     }

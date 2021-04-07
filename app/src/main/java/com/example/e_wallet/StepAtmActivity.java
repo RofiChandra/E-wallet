@@ -11,6 +11,7 @@ public class StepAtmActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.step_atm);
+        getSupportActionBar().hide();
     }
 
     public void toTopupMenu(View v){
